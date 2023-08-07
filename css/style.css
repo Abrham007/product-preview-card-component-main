@@ -1,0 +1,89 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  height: 100vh;
+  background-color: hsl(30, 38%, 92%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+  width: 600px;
+}
+picture > img {
+  width: 300px;
+  border-radius: 7px 0px 0px 7px;
+}
+.box {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 0px 7px 7px 0px;
+  padding: 20px;
+  text-align: left;
+  height: 450px;
+}
+.box > * {
+  margin: 20px 0px;
+}
+p:nth-of-type(1) {
+  color: hsl(228, 12%, 48%);
+  font-size: 15px;
+  letter-spacing: 3px;
+}
+p:nth-of-type(2) {
+  font-family: "Fraunces", serif;
+  font-size: 30px;
+}
+p:nth-of-type(3) {
+  color: hsl(228, 12%, 48%);
+  font-size: 15px;
+}
+p:nth-of-type(4) {
+  font-family: "Fraunces", serif;
+  font-size: 30px;
+  color: hsl(158, 36%, 37%);
+}
+p:nth-of-type(4) s {
+  font-family: "Montserrat", sans-serif;
+  color: hsl(228, 12%, 48%);
+  font-size: 15px;
+  margin-left: 15px;
+}
+
+button {
+  height: 50px;
+  width: 100%;
+  background-color: hsl(158, 36%, 37%);
+  border: none;
+  color: white;
+  padding: 10px;
+  border-radius: 7px;
+}
+button span {
+  margin-left: 10px;
+}
+button:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .container {
+    background-color: white;
+    margin: 20px;
+    flex-direction: column;
+  }
+  picture > img {
+    width: 100%;
+    border-radius: 7px 7px 0px 0px;
+  }
+  .box {
+    border-radius: 0px 0px 7px 7px;
+  }
+  .box > * {
+    margin: 10px;
+  }
+}
