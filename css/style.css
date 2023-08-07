@@ -29,26 +29,27 @@ picture > img {
 .box > * {
   margin: 15px 0px;
 }
-p:nth-of-type(1) {
+h1 {
   color: hsl(228, 12%, 48%);
   font-size: 15px;
   letter-spacing: 3px;
+  font-weight: normal;
 }
-p:nth-of-type(2) {
+p:nth-of-type(1) {
   font-family: "Fraunces", serif;
   font-size: 30px;
 }
-p:nth-of-type(3) {
+p:nth-of-type(2) {
   color: hsl(228, 12%, 48%);
   font-size: 15px;
   line-height: 1.6;
 }
-p:nth-of-type(4) {
+p:nth-of-type(3) {
   font-family: "Fraunces", serif;
   font-size: 30px;
   color: hsl(158, 36%, 37%);
 }
-p:nth-of-type(4) s {
+p:nth-of-type(3) s {
   font-family: "Montserrat", sans-serif;
   color: hsl(228, 12%, 48%);
   font-size: 15px;
